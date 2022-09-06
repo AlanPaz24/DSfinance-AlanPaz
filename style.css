@@ -94,3 +94,32 @@
     align-items: center;
 }
 }
+.titulo-retiro {
+    color: white;
+    margin: 0 10px;
+    padding: 10px;
+}
+.contenido-retiro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenido-retiro img{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+}
+.contenido-retiro p {
+    color: white;
+}
+@media (max-width: 576px) {
+    .contenido-retiro {
+    grid-template-columns: none;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
