@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+header img {
+  width: 15%;
+  max-width: 150px;
+}
+
+main img {
+  width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+section h1 {
+  color: white;
+}
+
+section p {
+  color: white;
+}
+
+section img {
+  width: 100%;
+  margin: 10px;
+}
+
+@media (max-width: 576px) {
+  section {
+    grid-template-columns: none;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */
