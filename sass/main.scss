@@ -58,3 +58,36 @@ section img {
     margin: 10px 15%;
     color: white;
 }
+
+.extend {
+    background-color: beige;
+    color: black;
+    font-family: sans-serif;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 15px
+}
+.extend--color1 {
+    @extend .extend;
+    background-color: gray;
+}
+.extend--color2 {
+    @extend .extend;
+    background-color: firebrick;
+}
+.coberturas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+@media (max-width: 576px) {
+    .coberturas {
+    grid-template-columns: none;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+}

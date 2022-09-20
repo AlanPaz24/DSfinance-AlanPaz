@@ -41,4 +41,60 @@ section img {
     justify-content: center;
     align-items: center;
   }
+}
+.boton {
+  background-color: aqua;
+}
+
+.btn--default {
+  display: inline-block;
+  padding: 10px;
+  border: solid gray 2px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 20%;
+}
+
+.titulo-proteccion h1 {
+  width: 80%;
+  margin: 10px 15%;
+  color: white;
+}
+
+.extend, .extend--color2, .extend--color1 {
+  background-color: beige;
+  color: black;
+  font-family: sans-serif;
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.extend--color1 {
+  background-color: gray;
+}
+
+.extend--color2 {
+  background-color: firebrick;
+}
+
+.coberturas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+
+@media (max-width: 576px) {
+  .coberturas {
+    grid-template-columns: none;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */
