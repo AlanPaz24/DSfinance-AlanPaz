@@ -83,6 +83,7 @@ section img {
     justify-content: center;
     justify-items: center;
 }
+
 @media (max-width: 576px) {
     .coberturas {
     grid-template-columns: none;
@@ -222,4 +223,21 @@ section img {
 .formulario {
     display: grid;
     width: 70%;
+}
+.extend--inversion {
+    @extend .extend;
+    background-color: rgb(250, 248, 121);
+}
+.extend--proteccion {
+    @extend .extend;
+    background-color: rgb(170, 241, 238);
+}
+.extend--retiro {
+    @extend .extend;
+    background-color: rgb(155, 243, 169);
+}
+.btn--index {
+    @include btn;
+    border-radius: 30px;
+    color: black;
 }

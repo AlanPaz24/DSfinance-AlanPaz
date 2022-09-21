@@ -64,7 +64,7 @@ section img {
   color: white;
 }
 
-.extend, .extend--color2, .extend--color1 {
+.extend, .extend--retiro, .extend--proteccion, .extend--inversion, .extend--color2, .extend--color1 {
   background-color: beige;
   color: black;
   font-family: sans-serif;
@@ -240,4 +240,28 @@ section img {
 .formulario {
   display: grid;
   width: 70%;
+}
+
+.extend--inversion {
+  background-color: rgb(250, 248, 121);
+}
+
+.extend--proteccion {
+  background-color: rgb(170, 241, 238);
+}
+
+.extend--retiro {
+  background-color: rgb(155, 243, 169);
+}
+
+.btn--index {
+  display: inline-block;
+  padding: 10px;
+  border: solid gray 2px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
