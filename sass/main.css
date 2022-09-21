@@ -69,9 +69,10 @@ section img {
   color: black;
   font-family: sans-serif;
   padding: 20px;
-  width: 300px;
+  width: 370px;
   margin-bottom: 10px;
   border-radius: 15px;
+  margin: 5px;
 }
 
 .extend--color1 {
@@ -79,7 +80,7 @@ section img {
 }
 
 .extend--color2 {
-  background-color: firebrick;
+  background-color: white;
 }
 
 .coberturas {
